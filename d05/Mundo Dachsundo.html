@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Dachsundo</title>
+    <link rel="shortcut icon" href="imagens/icon1.png" type="image/x-icon">
+    <style>
+        :root {
+            --cor1:#4B2E1E;
+            --corfundo: #f5f5f5;
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        
+        #fundo menu {
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+            
+        }
+        .icon {
+             
+            position: absolute;
+        }
+        .menu {
+            color: var(--cor1);
+            font-size: 150%;
+            text-decoration: none;
+            background-color: var(--corfundo);
+            border-radius: 30%;
+            padding: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            margin-right: 5%;
+            margin-left: 5%;
+            left: 5%;
+            right: 5%;
+            
+            
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between; /* Logo de um lado, links do outro */
+            align-items: center;
+            padding: 1rem 5%;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px; /* Aqui você controla o espaço entre os links de forma precisa */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #433422; /* Aquela cor marrom que combinamos */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="fundo menu">
+
+        <nav class="navbar">
+  <img src="imagens/icon1.png" class="logo-icon">
+  <ul class="nav-links">
+    <li><a href="#">Início</a></li>
+    <li><a href="#">Filhotes</a></li>
+    <li><a href="#">Sobre a Raça</a></li>
+    <li><a href="#">Contato</a></li>
+  </ul>
+</nav>
+        
+    </header>
+</body>
+</html>
