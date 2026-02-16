@@ -6,6 +6,22 @@
     box-sizing: 0;
 }
 
-nav a {
+.a01 {
+    height: 100dvh;
+    width: 99dvw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+ 
+
+}
+.block {
+    margin: 50px;
+}
+h2 {
+    text-align: center;
+}
+ul {
     display: flex;
 }
